@@ -6,7 +6,7 @@
 
 Created a kind of sliding window approach for score calculator. The frame being rolled is not always the next frame to score. So the front pointer tracks the current frame being rolled and records rolls. The back pointer is the next frame to be scored. All of this is stored in state and passed to the server the end of each frame. The server calculates as many frames as it can depending on the rolls and returns an updated score array and back pointer which are then updated in state.
 
-### Technologies
+## Technologies
 * Javascript
 * Nodejs
 * Express
@@ -35,4 +35,4 @@ npm run build
 npm run start
 ```
 
-go to [http://localhost:3000](http://localhost:3000)
+go to http://localhost:3000 after starting the server
